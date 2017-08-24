@@ -4,8 +4,9 @@ const Message = React.createClass({
     render: function(){
         console.log('Render <Message />');
         return (
-            <div>
-
+            <div className="message">
+            	<span className="username"> </span>
+            	<span className="content"> </span>
             </div>
         );
     }
