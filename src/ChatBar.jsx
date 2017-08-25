@@ -1,4 +1,5 @@
 import React from 'react';
+import App from './App.jsx';
 
 const ChatBar = function (props){
     console.log('Rendering <ChatBar />');
