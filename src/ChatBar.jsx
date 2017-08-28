@@ -1,7 +1,7 @@
 import React from 'react';
 import App from './App.jsx';
 
-const ChatBar = function (props){
+class ChatBar = function (props){
     console.log('Rendering <ChatBar />');
     return (
         <footer className="chatbar">
@@ -10,5 +10,6 @@ const ChatBar = function (props){
       </footer>
     );
 };
+
 
 export default ChatBar;
